@@ -8,12 +8,12 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
 /* We wrapped the prompt call in a parseInt function so that a number is returned from the user’s input.*/
 
 for (let i = 1; i <= answer; i++) {
-    if (i%3 == 0 & i%5 == 0){//i è divisibile sia per 3 che per 5
+    if (i%3 === 0 && i%5 === 0){//i è divisibile sia per 3 che per 5
         console.log("FizzBuzz");
     }
-    else if (i % 3 == 0){ // i è divisibile per tre
+    else if (i % 3 === 0){ // i è divisibile per tre
         console.log("Fizz");
-    } else if (i%5 == 0) {
+    } else if (i%5 === 0) {
         console.log("Buzz");
     }
     else{
